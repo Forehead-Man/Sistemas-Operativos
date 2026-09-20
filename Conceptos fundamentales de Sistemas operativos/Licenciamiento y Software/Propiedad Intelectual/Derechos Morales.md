@@ -1,0 +1,1 @@
+**Definición:** Parte de los derechos dentro de la [[Propiedad Intelectual]] de carácter irrenunciable e inalienable. Garantizan el reconocimiento permanente de la autoría y la integridad de la obra.

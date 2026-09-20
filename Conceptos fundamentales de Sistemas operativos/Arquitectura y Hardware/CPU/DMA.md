@@ -1,0 +1,1 @@
+**Definición:** Mecanismo que permite a ciertos componentes de hardware acceder a la [[Memoria Principal]] de manera independiente a la CPU, reduciendo la carga de interrupciones.

@@ -1,0 +1,1 @@
+Técnica de gestión de memoria administrada por el sistema operativo (con apoyo del hardware/MMU) que proporciona a cada [[Proceso|proceso]] un espacio de direcciones lógicas privado, continuo y abstracto, independiente de la cantidad de memoria física (RAM) disponible.

@@ -1,0 +1,1 @@
+**Definición:** Práctica legal que utiliza las leyes de copyright para otorgar libertades sobre una obra y exige que todas las obras derivadas mantengan la misma licencia y condiciones.

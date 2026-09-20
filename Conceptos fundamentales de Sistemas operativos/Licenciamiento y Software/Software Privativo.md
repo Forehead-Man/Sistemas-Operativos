@@ -1,0 +1,1 @@
+**Definición:** Software que limita cualquiera de las libertades del software libre o los criterios de fuente abierta (ej. software comercial cerrado, shareware, freeware restringido).

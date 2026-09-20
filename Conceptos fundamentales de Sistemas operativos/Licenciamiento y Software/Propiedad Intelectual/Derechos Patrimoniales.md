@@ -1,0 +1,1 @@
+**Definición:** Licencias o derechos de explotación económica sobre una obra que el autor posee o puede ceder a terceros (reproducción, distribución, transformación y comunicación pública).

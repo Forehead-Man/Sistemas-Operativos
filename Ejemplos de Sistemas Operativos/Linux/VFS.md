@@ -1,0 +1,1 @@
+**Definición:** Capa de abstracción del sistema de archivos provista por el núcleo de [[Linux]] para gestionar múltiples sistemas de archivos de forma uniforme.

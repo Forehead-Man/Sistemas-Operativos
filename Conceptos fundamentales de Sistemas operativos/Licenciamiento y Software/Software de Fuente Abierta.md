@@ -1,0 +1,1 @@
+**Definición:** Movimiento enfocado en los beneficios prácticos de compartir el código fuente (metodología de desarrollo, calidad) impulsado por la OSI, a diferencia del enfoque ético y moral del [[Software Libre]].

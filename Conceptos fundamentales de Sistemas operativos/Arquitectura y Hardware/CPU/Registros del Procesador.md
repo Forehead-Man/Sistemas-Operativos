@@ -1,0 +1,1 @@
+**Definición:** Espacios de almacenamiento temporal de muy alta velocidad ubicados dentro del propio procesador. Se utilizan para guardar operandos, direcciones intermedias y el estado actual de la [[CPU]].
