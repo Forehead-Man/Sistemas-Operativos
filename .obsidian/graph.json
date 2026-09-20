@@ -15,6 +15,13 @@
       }
     },
     {
+      "query": "path:\"Conceptos fundamentales de Sistemas operativos/Licenciamiento y Software\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14106895
+      }
+    },
+    {
       "query": "path:\"Conceptos fundamentales de Sistemas operativos\"  ",
       "color": {
         "a": 1,
@@ -45,7 +52,7 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -1.5,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
@@ -53,6 +60,6 @@
   "repelStrength": 10.5814073997305,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.4444444444444442,
+  "scale": 0.4444444444444434,
   "close": true
 }

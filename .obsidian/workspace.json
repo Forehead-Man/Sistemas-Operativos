@@ -6,6 +6,7 @@
       {
         "id": "03325d033f4e0a9e",
         "type": "tabs",
+        "dimension": 56.048084147257704,
         "children": [
           {
             "id": "906b79b273891f56",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memoria/Esquemas de administración/Multiprogramación/Multiprogramación.md",
+                "file": "Memoria/Esquemas de administración/Segmentación por demanda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiprogramación"
+              "title": "Segmentación por demanda"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "b66477926f65df34",
         "type": "tabs",
+        "dimension": 43.9519158527423,
         "children": [
           {
             "id": "a74c9ddff148c6a2",
@@ -101,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 268.5
   },
   "right": {
     "id": "8a0b8a9dd20c0473",
@@ -200,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 407.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,33 +216,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "906b79b273891f56",
+  "active": "7301602d39430c3c",
   "lastOpenFiles": [
-    "Pasted image 20260920155737.png",
-    "Memoria/Esquemas de administración/Multiprogramación/Fragmentación externa y compactación.png",
-    "Memoria/Esquemas de administración/Multiprogramación/Multiples particiones fijas.png",
-    "Memoria/Esquemas de administración/Multiprogramación",
-    "Memoria/Esquemas de administración/Monoprogramación/Monoprogramación.md",
-    "Memoria/Esquemas de administración/Monoprogramación",
-    "Memoria/Esquemas de administración/Monoprogramación/Partición absoluta unica.png",
-    "Memoria/Esquemas de administración/Multiprogramación/Multiprogramación.md",
-    "Memoria/Esquemas de administración/Monoprogramación/Overlays.png",
-    "Memoria/Conceptos de Memoria.md",
-    "Memoria/Esquemas de administración",
-    "Memoria/Mapa de memoria de un proceso/Mapa de memoria de un proceso.md",
+    "Memoria/Esquemas de administración/Segmentación por demanda.md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Prepaginado.md",
+    "Memoria/Conjunto de Trabajo (Working Set).md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Hiperpaginación.md",
     "Memoria/Administrador de Memoria.md",
-    "Memoria/Jerarquía de memoria/Jerarquía de memoria.md",
-    "Memoria/Jerarquía de memoria",
+    "Memoria/Conceptos de Memoria.md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación Simple/Paginación simple.md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Algoritmos de reemplazo de páginas.md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación por demanda.md",
+    "Memoria/Esquemas de administración/Algoritmo de selección de partición.md",
+    "Memoria/Esquemas de administración/Intercambio (Swapping).md",
+    "Memoria/Esquemas de administración/Reubicación.md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación Simple",
+    "Memoria/Esquemas de administración/Untitled",
+    "Memoria/Esquemas de administración/Monoprogramación/Monoprogramación.md",
+    "Procesos/Conceptos de Procesos.md",
+    "Procesos/Procesos y programas/Planificador (Scheduler) y activador (Dispatcher).md",
+    "Procesos/Procesos y programas/Proceso/Proceso.md",
+    "Memoria/Esquemas de administración/Memoria asociativa/Memoria asociativa - TLB (Translation Lookaside Buffer).md",
+    "Memoria/Esquemas de administración/Memoria asociativa",
+    "Memoria/Esquemas de administración/Memoria asociativa/Memoria asociativa.png",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación Simple.md",
+    "Memoria/Esquemas de administración/Buddy system/Sistema de compañeras - Buddy system.md",
+    "Memoria/Esquemas de administración/Multiprogramación/Multiprogramación.md",
+    "Memoria/Esquemas de administración/Multiprogramación/Multiples particiones fijas.png",
+    "Memoria/Esquemas de administración/Multiprogramación/Fragmentación externa y compactación.png",
+    "Conceptos fundamentales de Sistemas operativos/Arquitectura y Hardware/CPU/Dirección de Memoria.md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación con paginación/Segmentación con paginación.md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación con paginación",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación con paginación/Segmentación con paginación.png",
+    "Memoria/Esquemas de administración/Paginación y segmentación",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación Simple/Paginacion simple.png",
+    "Procesos/Procesos y programas/PCB (Process Control Block).md",
+    "Conceptos fundamentales de Sistemas operativos/Modos de Operación y Protección/Sistema Operativo/Kernel/Núcleo (Kernel).md",
+    "Conceptos fundamentales de Sistemas operativos/Modos de Operación y Protección/Sistema Operativo/Kernel/Núcleo Híbrido.md",
+    "Memoria/Esquemas de administración/Asignador de baldosas/Asignador de baldosas - Slab allocator.md",
+    "Memoria/Esquemas de administración/Asignador de baldosas",
+    "Memoria/Esquemas de administración/Buddy system/Buddy system.png",
+    "Memoria/Esquemas de administración/Buddy system",
+    "Linux.pub",
+    "Linux",
+    "q.pub",
+    "Memoria/Esquemas de administración/Monoprogramación/Partición absoluta unica.png",
+    "Memoria/Esquemas de administración/Monoprogramación/Overlays.png",
     "Memoria/Jerarquía de memoria/Tiempos de acceso de distintas memorias.png",
-    "Memoria/Mapa de memoria de un proceso",
-    "Memoria/Generacion de un ejecutable/Generación de un ejecutable.md",
-    "Memoria/Formatos de un ejecutable/Formatos de un ejecutable.md",
-    "Memoria/Mapa de memoria de un proceso/Mapa de memoria de un proceso.png",
-    "Pasted image 20260920123431.png",
-    "Memoria/Generacion de un ejecutable",
-    "Memoria/Formatos de un ejecutable",
-    "Memoria/Formatos de un ejecutable/Formato PE.png",
-    "Memoria/Formatos de un ejecutable/Formato ELF.png",
-    "Memoria/Formatos de un ejecutable/Formatos de un ejecutable.png"
+    "Memoria/Mapa de memoria de un proceso/Mapa de memoria de un proceso.png"
   ]
 }

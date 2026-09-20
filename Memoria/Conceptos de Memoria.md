@@ -3,3 +3,21 @@
 - [[Mapa de memoria de un proceso]]
 - [[Generación de un ejecutable]]
 - [[Formatos de un ejecutable]]
+- Esquemas de administración
+	- [[Algoritmo de selección de partición]]
+	- [[Monoprogramación]]
+	- [[Multiprogramación]]
+	- [[Sistema de compañeras - Buddy system]]
+	- [[Asignador de baldosas - Slab allocator]]
+	- [[Reubicación]]
+	- [[Intercambio (Swapping)]]
+	- Paginación y segmentación:
+		- [[Paginación simple]]
+		- [[Segmentación Simple]]
+		- [[Segmentación con paginación]]
+		- [[Memoria asociativa - TLB (Translation Lookaside Buffer)]]
+		- [[Paginación por demanda]]
+		- [[Algoritmos de reemplazo de páginas]]
+		- [[Hiperpaginación]]
+
+

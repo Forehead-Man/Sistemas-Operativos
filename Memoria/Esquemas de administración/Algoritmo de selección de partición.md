@@ -1,0 +1,4 @@
+- **Primer ajuste (first fit):** El proceso es asignado al primer hueco encontrado que sea mayor que el tamaño del proceso.
+- **Próximo ajuste (next fit):** No comienza la búsqueda desde el principio sino desde el último hueco asignado.
+- **Mejor ajuste (best fit):** Revisa la lista completa para encontrar el hueco más pequeño.
+- **Peor ajuste (worst fit):** Elige el que deje el hueco remanente más grande.

@@ -4,7 +4,7 @@ En un ambiente de multiprogramación hay **varios procesos compartiendo la memor
 
 Si todas las particiones son del mismo tamaño, el SO sólo necesita llevar la cuenta de cuáles particiones están asignadas a cada proceso. La tabla de particiones de memoria almacena o bien la dirección de comienzo para cada proceso o el número de la partición asignada. El espacio al final de una partición que no es usado, se desperdicia, esto genera algo llamado **fragmentación interna.**
 
-![[Pasted image 20260920155737.png]]
+![[Multiples particiones fijas.png|456]]
 
 ### Múltiples particiones variables
 
