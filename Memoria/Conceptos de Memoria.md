@@ -19,5 +19,14 @@
 		- [[Paginación por demanda]]
 		- [[Algoritmos de reemplazo de páginas]]
 		- [[Hiperpaginación]]
+		- [[Prepaginado]]
+		- [[Conjunto de Trabajo (Working Set)]]
+- [[¿Que significa más rapido?]]
 
+### Conceptos de Linux
 
+- [[Creación y diferencia de Bibliotecas (Estáticas vs. Dinámicas)]]
+- [[Formato ELF (Executable and Linkable Format)]]
+- [[Inspección de Memoria Real en Tiempo de Ejecución]]
+- [[Las 4 etapas de compilación con gcc]]
+- [[Mapeo directo entre C y el formato ELF (Estructura interna)]]

@@ -1,0 +1,5 @@
+- **Latencia**: cuánto tarda en comenzar a responder.
+- **Ancho de banda:** cuántos datos puede transferir por segundo.
+- **Capacidad:** cuánto puede almacenar.
+- **Persistencia:** si conserva los datos sin alimentación.
+- **Localidad y contención:** si el acceso es local, remoto, secuencial o aleatorio.

@@ -1,0 +1,6 @@
+- **Definición:** Conjunto de estructuras de datos que utiliza el núcleo para llevar el registro de todos los procesos, hilos y sus propiedades.
+- **Función principal:** Realiza el seguimiento de qué hilos están esperando para ejecutar y en qué procesadores se están ejecutando.
+- **Estructura por procesador:**
+    - Cada CPU tiene asociadas **32 colas de listos** (una por cada nivel de prioridad).
+    - Incluye un **resumen de listos** (_ready summary_) que indica mediante bits si hay al menos un hilo disponible en determinado nivel.
+	    - Mantiene también un **resumen de inactivos**.

@@ -1,0 +1,4 @@
+- **Función:** El SO las utiliza para ordenar el acceso a recursos compartidos (CPU y dispositivos).
+- **Cola de procesos (_Task Queue_):** Recibe los procesos recién creados que están listos para ejecutarse pero aún no están cargados en memoria.
+- **Cola de listos (_Ready Queue_):** Contiene los procesos ya cargados en memoria principal que compiten directamente por la CPU _(la residencia en memoria es obligatoria para ejecutar)_.
+- **Estructura:** Las colas no almacenan el proceso completo, sino su [[PCB (Process Control Block)|PCB]] (_Process Control Block_).

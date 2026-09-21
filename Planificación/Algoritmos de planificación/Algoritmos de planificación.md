@@ -1,0 +1,8 @@
+- [[FCFS (first-Come-First-Serve)]]
+- [[SJF (Shortest-Job-First)]]
+	- [[SRPT (Shortest-Remaining-Processing-Time)]]
+- [[Por prioridad]]
+- [[RR (Round-Robin)]]
+- Colas multiniveles
+	- [[MLQ (multi level queues)]]
+	- [[MLFQ (multi level feedback queues)]]

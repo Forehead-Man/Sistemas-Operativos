@@ -1,0 +1,6 @@
+- **Comportamiento por ráfagas (_bursts_):** Los procesos alternan continuamente entre cómputo (ráfagas de CPU) y operaciones de entrada/salida (ráfagas de E/S).
+- **Tipos de procesos:**
+    - **Orientados a CPU (_CPU bound_):** Realizan muchos cálculos y pocas operaciones de E/S.
+    - **Orientados a E/S (_I/O bound_):** Realizan muchas operaciones de E/S y pocos cálculos.
+- **Rol del planificador:** Asigna la CPU a otro proceso mientras uno espera una operación de E/S para no dejar la CPU ociosa.
+- **Ilusión de uso exclusivo:** El sistema hace creer al usuario y al proceso que tienen la CPU a su entera disposición.

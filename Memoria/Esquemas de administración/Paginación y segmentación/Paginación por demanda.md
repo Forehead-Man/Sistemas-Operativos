@@ -1,4 +1,4 @@
-Mecanismo que combina la **paginación simple** con la filosofía de las **[[Monoprogramación|superposiciones (overlays)]]** para implementar **[[memoria virtual]]**. En lugar de cargar todo el programa en la RAM desde el principio, una página solo se trae a la memoria física **cuando el proceso intenta acceder a ella** ("perezoso" o _lazy loading_).
+Mecanismo que combina la **paginación simple** con la filosofía de las **[[Monoprogramación|superposiciones (overlays)]]** para implementar **[[Memoria virtual]]**. En lugar de cargar todo el programa en la RAM desde el principio, una página solo se trae a la memoria física **cuando el proceso intenta acceder a ella** ("perezoso" o _lazy loading_).
 
 - **Almacenamiento secundario:** Todas las páginas del proceso se guardan originalmente de forma continua en el espacio de intercambio (_swap_) o archivo en disco.
 - **Bit de presencia (_in/out bit_ o _present/valid bit_):** Indicador en la tabla de páginas que señala si una página está cargada en la RAM (`1`/`in`) o permanece en el disco (`0`/`out`).

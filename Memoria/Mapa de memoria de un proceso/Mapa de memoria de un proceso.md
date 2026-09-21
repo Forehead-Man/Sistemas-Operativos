@@ -6,7 +6,7 @@ Cada región es una zona contigua y con las siguientes características:
 	- Soporte en archivo
 	- Sin soporte. No tiene contenido inicial
 - **Tipo de uso compartido**
-	- Privado. Solo accesible por ese [[proceso]].
+	- Privado. Solo accesible por ese [[Proceso]].
 	- Compartido. El cont. de la región es accesible por otros procesos.
 - **Protección**
 	- Lectura

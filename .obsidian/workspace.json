@@ -14,15 +14,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memoria/Esquemas de administración/Segmentación por demanda.md",
+                "file": "Memoria/Formatos de un ejecutable/Formatos de un ejecutable.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Segmentación por demanda"
+              "title": "Formatos de un ejecutable"
+            }
+          },
+          {
+            "id": "2acbe0065869ea41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planificación/Planificación en Windows/Planificación en Windows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Planificación en Windows"
+            }
+          },
+          {
+            "id": "f9196e84ee71bc57",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b66477926f65df34",
@@ -202,7 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 409.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,51 +243,51 @@
   },
   "active": "7301602d39430c3c",
   "lastOpenFiles": [
-    "Memoria/Esquemas de administración/Segmentación por demanda.md",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Prepaginado.md",
-    "Memoria/Conjunto de Trabajo (Working Set).md",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Hiperpaginación.md",
-    "Memoria/Administrador de Memoria.md",
-    "Memoria/Conceptos de Memoria.md",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación Simple/Paginación simple.md",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Algoritmos de reemplazo de páginas.md",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación por demanda.md",
-    "Memoria/Esquemas de administración/Algoritmo de selección de partición.md",
-    "Memoria/Esquemas de administración/Intercambio (Swapping).md",
-    "Memoria/Esquemas de administración/Reubicación.md",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación Simple",
-    "Memoria/Esquemas de administración/Untitled",
-    "Memoria/Esquemas de administración/Monoprogramación/Monoprogramación.md",
+    "Planificación/Planificación en Windows/Planificación en Windows.md",
+    "Planificación/Conceptos planificación.md",
+    "Planificación/Tipos de planificación.md",
+    "Planificación/Planificación en Windows/Base de datos del activador (Dispatcher Database) en Windows.md",
+    "Planificación/Planificación en Windows/Niveles prioridad windows.png",
+    "Planificación/Planificación en Windows",
+    "Planificación/Planificación en POSIX y Linux.md",
+    "Planificación/Criterios de planificación.md",
+    "Planificación/Algoritmos de planificación/MLQ (multi level queues).md",
+    "Planificación/Algoritmos de planificación/Algoritmos de planificación.md",
+    "Planificación/Algoritmos de planificación/MLFQ (multi level feedback queues).md",
+    "Planificación/Algoritmos de planificación/Por prioridad.md",
+    "Procesos/Procesos y programas/PCB (Process Control Block).md",
+    "prioridad.md",
+    "Colas multiniveles.md",
+    "Planificación/Algoritmos de planificación/RR (Round-Robin).md",
+    "Planificación/Algoritmos de planificación/SRPT (Shortest-Remaining-Processing-Time).md",
+    "Memoria/¿Que significa más rapido?.md",
+    "Planificación/Algoritmos de planificación/SJF (Shortest-Job-First).md",
+    "Planificación/Algoritmos de planificación/FCFS (first-Come-First-Serve).md",
+    "Planificación/Supuestos subyacentes.md",
+    "Planificación/Algoritmos de planificación",
     "Procesos/Conceptos de Procesos.md",
     "Procesos/Procesos y programas/Planificador (Scheduler) y activador (Dispatcher).md",
-    "Procesos/Procesos y programas/Proceso/Proceso.md",
-    "Memoria/Esquemas de administración/Memoria asociativa/Memoria asociativa - TLB (Translation Lookaside Buffer).md",
+    "Planificación/Colas de Procesos.md",
+    "Planificación/Desalojo (Preemption).md",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Prepaginado.md",
+    "Memoria/Linux conceptos/Mapeo directo entre C y el formato ELF (Estructura interna).md",
+    "Planificación/Características de los Procesos y la CPU.md",
+    "Planificación",
+    "Memoria/Linux conceptos/Mapeo directo....png",
+    "Memoria/Linux conceptos",
+    "Memoria/Esquemas de administración/Paginación y segmentación/Paginación Simple",
+    "Memoria/Esquemas de administración/Untitled",
     "Memoria/Esquemas de administración/Memoria asociativa",
     "Memoria/Esquemas de administración/Memoria asociativa/Memoria asociativa.png",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación Simple.md",
-    "Memoria/Esquemas de administración/Buddy system/Sistema de compañeras - Buddy system.md",
-    "Memoria/Esquemas de administración/Multiprogramación/Multiprogramación.md",
     "Memoria/Esquemas de administración/Multiprogramación/Multiples particiones fijas.png",
     "Memoria/Esquemas de administración/Multiprogramación/Fragmentación externa y compactación.png",
-    "Conceptos fundamentales de Sistemas operativos/Arquitectura y Hardware/CPU/Dirección de Memoria.md",
-    "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación con paginación/Segmentación con paginación.md",
     "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación con paginación",
     "Memoria/Esquemas de administración/Paginación y segmentación/Segmentación con paginación/Segmentación con paginación.png",
     "Memoria/Esquemas de administración/Paginación y segmentación",
     "Memoria/Esquemas de administración/Paginación y segmentación/Paginación Simple/Paginacion simple.png",
-    "Procesos/Procesos y programas/PCB (Process Control Block).md",
-    "Conceptos fundamentales de Sistemas operativos/Modos de Operación y Protección/Sistema Operativo/Kernel/Núcleo (Kernel).md",
-    "Conceptos fundamentales de Sistemas operativos/Modos de Operación y Protección/Sistema Operativo/Kernel/Núcleo Híbrido.md",
-    "Memoria/Esquemas de administración/Asignador de baldosas/Asignador de baldosas - Slab allocator.md",
     "Memoria/Esquemas de administración/Asignador de baldosas",
     "Memoria/Esquemas de administración/Buddy system/Buddy system.png",
-    "Memoria/Esquemas de administración/Buddy system",
-    "Linux.pub",
-    "Linux",
-    "q.pub",
     "Memoria/Esquemas de administración/Monoprogramación/Partición absoluta unica.png",
-    "Memoria/Esquemas de administración/Monoprogramación/Overlays.png",
-    "Memoria/Jerarquía de memoria/Tiempos de acceso de distintas memorias.png",
-    "Memoria/Mapa de memoria de un proceso/Mapa de memoria de un proceso.png"
+    "Memoria/Esquemas de administración/Monoprogramación/Overlays.png"
   ]
 }

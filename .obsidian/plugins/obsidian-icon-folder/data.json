@@ -5,7 +5,12 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiAppWindow",
+      "LiBarChart",
+      "LiMemoryStick",
+      "LiAlertCircle"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -27,5 +32,13 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
+  },
+  "Conceptos fundamentales de Sistemas operativos": "LiAlertCircle",
+  "Memoria": "LiMemoryStick",
+  "Ejemplos de Sistemas Operativos": "LiBarChart",
+  "Procesos": "LiAppWindow",
+  "Planificación/Conceptos planificación.md": {
+    "iconName": "LiAlertCircle",
+    "iconColor": "#ff0000"
   }
 }

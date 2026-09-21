@@ -1,0 +1,4 @@
+Divide la cola de procesos listos en múltiples colas según el tipo de trabajo o propiedades del proceso (como tamaño en memoria, prioridad o tipo de proceso).
+- **Especialización:** Separa procesos (por ejemplo, interactivos vs. en segundo plano / _background_) porque requieren distintos tiempos de respuesta.
+- **Algoritmos independientes:** Cada cola puede usar un algoritmo diferente (ej. [[RR (Round-Robin)|Round Robin]] para interactivos y [[FCFS (first-Come-First-Serve)|FCFS]] para _background_).
+- **Gestión entre colas:** Requiere un criterio de planificación entre las distintas colas, comúnmente mediante prioridad fija con [[Desalojo (Preemption)|desalojo]] (ningún proceso ejecuta si hay otro listo en una cola de mayor prioridad).

@@ -1,0 +1,18 @@
+- **`gcc -E hello.c -o hello.i`** → **Preprocesado:** Expande macros (`#define`) e incluye librerías (`#include`).
+- **`gcc -S hello.c -o hello.s`** → **Compilación:** Genera el código fuente en lenguaje ensamblador.
+- **`gcc -c hello.c -o hello.o`** → **Ensamblado:** Produce el código máquina binario en un _archivo objeto reubicable_ (todavía no se puede ejecutar).
+- **`gcc hello.o -o hello`** → **Enlazado (Linking):** Junta los objetos y resuelve referencias a funciones para crear el _archivo ejecutable final_.
+
+- **`hello.o` (Archivo objeto reubicable):**
+    - **Tipo ELF:** **`REL`** (_Relocatable file_).
+    - **Qué significa:** Contiene código máquina traducido y secciones, pero las direcciones son relativas y faltan resolver símbolos (como la llamada a `printf`). No se puede ejecutar directamente.
+- **`hello` / `saludo-compartido` (Ejecutables normales en sistemas modernos):**
+    - **Tipo ELF:** **`DYN`** (_Shared object file / Position-Independent Executable - PIE_).
+    - **Qué significa:** En las distribuciones actuales de Linux, por defecto `gcc` compila los ejecutables como **PIE** (código independiente de la posición por temas de seguridad con ASLR). Por esta razón, el kernel los clasifica técnicamente como `DYN` aunque sean ejecutables finales.
+    - _(Nota: Si compilaras con la bandera `-no-pie`, su tipo pasaría a ser **`EXEC`**)_.
+- **`libsaludo.so` (Biblioteca compartida / dinámica):**
+    - **Tipo ELF:** **`DYN`** (_Shared object file_).
+    - **Qué significa:** Es un objeto compartido pensado para enlazarse o cargarse en tiempo de ejecución junto a otros programas.        
+- **`libsaludo.a` (Biblioteca estática):**    
+    - **Tipo ELF:** **No es un archivo ELF**.
+    - **Qué significa:** Es un archivo contenedor o _archive_ (formato `ar`). Es simplemente un "zip/tar" sin comprimir que agrupa adentro uno o varios archivos objeto `.o` (los cuales sí son de tipo `REL`).

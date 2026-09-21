@@ -1,0 +1,8 @@
+- **Dinámica con retroalimentación:** A diferencia de [[MLQ (multi level queues)|MLQ]], permite que los procesos cambien de cola según su comportamiento en ejecución.
+- **Parámetros de definición:**
+    - Cantidad de colas.
+    - Algoritmo propio de cada cola.
+    - Criterio de planificación entre las distintas colas.
+    - Reglas para ascender o descender procesos de prioridad/cola.
+    - Regla para determinar en qué cola ingresa un proceso nuevo.
+- **Complejidad:** Es el algoritmo de planificación más general, pero también el más complejo.

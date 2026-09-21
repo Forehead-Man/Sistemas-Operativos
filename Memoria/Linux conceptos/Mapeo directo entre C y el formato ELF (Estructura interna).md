@@ -1,0 +1,1 @@
+![[Mapeo directo....png]]

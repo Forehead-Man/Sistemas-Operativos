@@ -1,5 +1,5 @@
 El administrador de memoria de un sistema operativo debería cumplir con las siguientes funciones:
-- **Reubicación:** Sistema de [[memoria virtual]].
+- **Reubicación:** Sistema de [[Memoria virtual]].
 - **Protección:** Los [[Proceso|procesos]] no deben ser capaces de acceder al espacio de memoria de otros procesos.
 - **Compartimiento:** Hay casos donde si se desea compartir memoria entre procesos sobre todo en los mecanismos de comunicación.
 - **Organización lógica:** Organización que surge en cómo están estructurados internamente los procesos. Un ejemplo es la [[Segmentación Simple|segmentación]]

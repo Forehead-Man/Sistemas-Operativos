@@ -1,0 +1,6 @@
+- **Seguridad (ASLR):** Notarás que cada vez que ejecutas `./memoria`, las direcciones de memoria de las variables cambian debido al _Address Space Layout Randomization_.
+- **`/proc/<PID>/maps`:** Consulta el archivo del sistema `/proc` asociado al PID de tu programa. Verás cómo el Kernel tradujo los segmentos del ELF a regiones continuas con permisos (`rwxp`), separando el código, el Heap y el Stack.
+- **Depuración con `gdb`:** Comandos básicos de `gdb` para pausar el proceso y ver sus mapas:
+	- `break main` (fija punto de detención).
+    - `run` (inicia el programa).
+    - `info proc mappings` (muestra la tabla de regiones de memoria virtual idéntica a `/proc/pid/maps`).

@@ -1,0 +1,6 @@
+- **Definición:** El SO interrumpe un proceso en ejecución y lo pasa a estado _Listo_ sin que este lo haya pedido, para retomarlo después.
+- **Mecanismo:** Requiere un temporizador (_reloj de interrupción_) que genere señales para forzar el cambio.
+- **Sin desalojo (_multitarea cooperativa_):**
+    - Los procesos ejecutan hasta terminar o ceden la CPU voluntariamente (por ejemplo, al esperar E/S como disco o teclado).
+    - Depende de la "buena voluntad" del programa.
+- **Uso:** El desalojo está presente en todos los sistemas operativos modernos de propósito general.
