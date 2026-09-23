@@ -1,0 +1,2 @@
+En este modelo tenemos un proceso llamado servidor, por una parte, que ofrece un servicio a otros procesos, por otra parte, que se denominan clientes. El proceso servidor puede residir en la misma máquina que el cliente o en una distinta, en cuyo caso la  comunicación deberá realizarse a través de una red de interconexión.
+![[Cliente - Servidor.png]]

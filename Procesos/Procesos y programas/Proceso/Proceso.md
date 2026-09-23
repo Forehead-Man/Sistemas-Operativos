@@ -1,4 +1,4 @@
-	**Definición:** Un proceso es una instancia de un [[programa]] (un [[programa]] en ejecución).
+**Definición:** Un proceso es una instancia de un [[programa]] (un [[programa]] en ejecución).
 
 **Un proceso es:**
 - Es dinámico.

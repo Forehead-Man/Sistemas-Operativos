@@ -6,10 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArrowLeftRight",
+      "LiList",
       "LiAppWindow",
       "LiBarChart",
-      "LiMemoryStick",
-      "LiAlertCircle"
+      "LiMemoryStick"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +41,7 @@
   "Planificación/Conceptos planificación.md": {
     "iconName": "LiAlertCircle",
     "iconColor": "#ff0000"
-  }
+  },
+  "Planificación": "LiList",
+  "Sincronización": "LiArrowLeftRight"
 }

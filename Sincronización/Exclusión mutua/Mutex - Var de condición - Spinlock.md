@@ -1,0 +1,5 @@
+Una variable **mutex** es un objeto en un programa que sirve para trabar y se usa para lograr exclusión mutua (y de ahí su nombre: de la contracción en inglés de mutual exclusión o exclusión mutua). Está siempre en uno de dos estados: “trabado” o “destrabado” locked/unlocked). Valores binarios “1” o “0”.
+
+Una **variable de condición** está asociada con una variable mutex y refleja un estado lógico o boolean, en inglés (es decir, verdadero o falso). Las variables de condición indican eventos. Normalmente las dos operaciones que se proveen para una variable de condición son wait() y signal().
+
+Un **spinlock** es una traba (**lock**) que se puede adquirir para acceso exclusivo y que si no está disponible se espera en un lazo comprobando repetidamente (**spin**) hasta que lo esté. Interesante, si el tiempo de espera es menor que la sobrecarga de un cambio de contexto.

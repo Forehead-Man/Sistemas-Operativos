@@ -1,0 +1,2 @@
+- [[Sincronización]]
+- [[Exclusión mutua]]
